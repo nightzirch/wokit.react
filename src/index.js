@@ -18,7 +18,7 @@ ReactDOM.render(
       <Route exact path="/" component={FrontPage} />
       <Route path="/blog" component={BlogPage} />
       <Route path="/category" component={CategoryPage} />
-      <Route path="/category/recipe" component={RecipePage} />
+      <Route path="/recipe" component={RecipePage} />
     </App>
   </BrowserRouter>,
   document.getElementById('root')
