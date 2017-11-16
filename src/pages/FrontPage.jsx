@@ -11,6 +11,7 @@ class FrontPage extends Component {
       <div className="page-container front-page">
         <Container>
           <h1>{Generator.getRecipeName()}</h1>
+          <p>{Generator.getIngredient()}</p>
           <p>{Generator.getBreadText()}</p>
         </Container>
       </div>

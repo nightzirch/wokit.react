@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/frying-pan.svg';
 
 const navItems = [
   { name: 'Forside', url: '/' },
@@ -12,7 +13,7 @@ const Header = () => {
     <header className='header'>
       <nav>
         <span className='header__logo'>
-          <img alt='wokit logo' title='wokit logo' src='https://placehold.it/80x80' />
+          <img alt='wokit logo' title='wokit logo' src={logo} />
         </span>
 
         <ul className='header__menu'>
