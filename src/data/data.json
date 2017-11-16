@@ -1,4 +1,6 @@
 {
-  
+  "adjective": ["bløt", "varm", "våt", "kald", "gjennomstekt", "godt stekt", "rå", "sliten", "trøtt", "glad", "lykkelig", "intens", "innpåsliten", "sulten", "mett", "våken", "høylytt", "fremtidsrettet", "ytrende", "effektiv", "feilestimert", "underestimert", "overestimert", "dyktig", "feiljustert", "innbakt", "ovnsbakt", "frityrstekt", "frityrkokt", "kokt", "rått", "lunken", "avkjølt", "nedkjølt"],
+  "noun": ["utvikler", "designer", "prosjektleder", "musematte", "trackpad", "prosjekt", "kaffekopp", "skrivebord", "pult", "røykvarsler", "lunsjgryte", "skive", "bursdagskake", "ytterjakke", "paraply", "outlook", "møterom", "tastatur", "laptopstativ", "TV-oppheng", "estimat", "USB-C adapter", "støyreduserende headsett", "brannøvelse", "brannalarm", "briller", "regnvær", "stue", "zoom", "båtkai", "firmatur", "fly", "workshop", "takvifte"],
+  "measurement": ["ss", "ts", "dl", "l", "g", "kg"]
 }
   

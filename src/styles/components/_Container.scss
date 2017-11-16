@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+
+  @include min-mobile {
+    max-width: $mobile;
+  }
+
+  @include min-tablet {
+    max-width: $tablet;
+  }
+
+  @include min-laptop {
+    max-width: $laptop;
+  }
+
+  @include min-desktop {
+    max-width: $desktop;
+  }
+}

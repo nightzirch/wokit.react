@@ -7,6 +7,7 @@ import './styles/style.css';
 import {
   App,
   BlogPage,
+  CategoryPage,
   FrontPage,
   RecipePage
 } from './pages';
@@ -16,7 +17,8 @@ ReactDOM.render(
     <App>
       <Route exact path="/" component={FrontPage} />
       <Route path="/blog" component={BlogPage} />
-      <Route path="/recipe" component={RecipePage} />
+      <Route path="/category" component={CategoryPage} />
+      <Route path="/category/recipe" component={RecipePage} />
     </App>
   </BrowserRouter>,
   document.getElementById('root')

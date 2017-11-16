@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
+import Generator from '../data/generator';
+
+import {
+  Container
+} from '../components';
 
 class FrontPage extends Component {
   render() {
     return (
-      <div className="front-page">
+      <div className="page-container front-page">
+        <Container>
+          <h1>{Generator.getRecipeName()}</h1>
+          <p>{Generator.getBreadText()}</p>
+        </Container>
       </div>
     );
   }

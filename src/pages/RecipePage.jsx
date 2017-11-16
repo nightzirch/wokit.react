@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class RecipePage extends Component {
   render() {
     return (
-      <div className="front-page">
+      <div className="page-container front-page">
       </div>
     );
   }
