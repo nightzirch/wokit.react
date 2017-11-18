@@ -18,6 +18,154 @@ body {
       display: flex;
       flex-grow: 1;
       flex-direction: column; }
+      body .app .page-container.front-page {
+        flex-direction: row;
+        flex-wrap: wrap; }
+        body .app .page-container.front-page .page-background {
+          position: fixed;
+          z-index: -1;
+          width: 100%;
+          height: 100%;
+          background-repeat: no-repeat;
+          background-size: cover; }
+
+.article-block {
+  display: inline-block;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  flex-grow: 1; }
+
+.annelise-blokk {
+  width: 300px;
+  background-color: burlywood; }
+  .annelise-blokk p {
+    color: #240b0b;
+    font-family: "Raleway"; }
+  .annelise-blokk h1 {
+    color: #492d03;
+    font-family: "Helvetica Neue";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; }
+
+.birgitte-blokk {
+  background-color: lightgray;
+  display: inline-block; }
+  .birgitte-blokk h1 {
+    color: green;
+    font-family: cursive; }
+  .birgitte-blokk a {
+    display: flex;
+    flex-direction: column; }
+  .birgitte-blokk img {
+    margin: 0 auto; }
+
+.borghild-blokk {
+  width: 300px;
+  background-color: #FFE4E1; }
+  .borghild-blokk h1 {
+    color: #4B0082; }
+
+.camilla-blokk {
+  width: 300px;
+  background-color: purple; }
+  .camilla-blokk h1 {
+    color: pink;
+    font-family: monospace;
+    shape-inside: circle(); }
+  .camilla-blokk img {
+    width: 100%; }
+
+.ellen-blokk {
+  width: 350px;
+  background-color: #F5F5F5; }
+  .ellen-blokk h1 {
+    color: red;
+    font-family: "raleway";
+    font-size: 80px;
+    font-weight: bold; }
+  .ellen-blokk h2 {
+    color: white;
+    font-family: "raleway"; }
+  .ellen-blokk p {
+    color: black;
+    font-family: "raleway";
+    font-weight: bold;
+    text-align: center; }
+  .ellen-blokk img {
+    width: 100%; }
+
+.Fredrikblokk {
+  width: 300px;
+  background-color: black;
+  color: white; }
+  .Fredrikblokk img {
+    width: 100%; }
+  .Fredrikblokk h1 {
+    color: blueviolet;
+    font-family: "Raleway"; }
+
+.jangeorg-blokk {
+  width: 300px;
+  display: inline-block;
+  background-color: pink; }
+  .jangeorg-blokk h1 {
+    color: magenta;
+    font-family: "BrushUp"; }
+  .jangeorg-blokk img {
+    width: 100%; }
+
+.marie-blokk {
+  width: 300px; }
+  .marie-blokk h1 {
+    color: orange;
+    font-family: "BrushUp";
+    font-size: 55px; }
+  .marie-blokk img {
+    width: 100%; }
+  .marie-blokk h2 {
+    width: 50%;
+    color: white;
+    font-family: "TimesNewRoman"; }
+
+.Regine-blokk {
+  width: 300px;
+  background-color: beige; }
+  .Regine-blokk h1 {
+    color: crimson;
+    font-family: arial;
+    font-size: 30px; }
+  .Regine-blokk p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px; }
+  .Regine-blokk img {
+    width: 100%; }
+
+.sigrid-blokk {
+  display: inline-block;
+  width: 300px;
+  color: white; }
+  .sigrid-blokk img {
+    object-fit: contain;
+    width: 100%; }
+
+.sverre-blokk {
+  width: 300px;
+  display: inline-block;
+  background-color: #f44242; }
+  .sverre-blokk h1 {
+    color: green;
+    font-family: helvetica;
+    font-size: 50px;
+    text-align: center; }
+  .sverre-blokk img {
+    width: 100%; }
+  .sverre-blokk p {
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center; }
 
 .container {
   width: 100%;

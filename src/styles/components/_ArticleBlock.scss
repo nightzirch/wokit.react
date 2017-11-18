@@ -1,0 +1,201 @@
+.article-block {
+  display: inline-block;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.annelise-blokk {
+  width: 300px;
+  background-color: burlywood;
+
+  p {
+    color: rgb(36, 11, 11);
+    font-family:"Raleway";
+  }
+
+  h1 {
+    color: rgb(73, 45, 3);
+    font-family: "Helvetica Neue";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.birgitte-blokk {
+  background-color: lightgray;
+  display: inline-block;
+
+  h1{
+    color: green;
+    font-family: cursive;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img {
+    margin:0 auto;
+  }
+}
+
+.borghild-blokk {
+  width: 300px;
+  background-color: #FFE4E1;
+  
+  h1 {
+    color: #4B0082;
+  }
+}
+
+.camilla-blokk {
+  width: 300px;
+  background-color: purple;
+
+  h1 {
+    color: pink;
+    font-family: monospace;
+    shape-inside: circle();
+  }
+
+  img {
+    width: 100%
+  }
+}
+
+.ellen-blokk {
+  width: 350px;
+  background-color: #F5F5F5;
+  
+  h1 {
+    color: red;
+    font-family: "raleway";
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  h2 {
+    color: white;
+    font-family: "raleway";
+  }
+
+  p {
+    color: black;
+    font-family: "raleway";
+    font-weight: bold;
+    text-align: center;
+  }
+
+  img {
+    width: 100%
+  }
+}
+
+.Fredrikblokk {
+  width: 300px;
+  background-color: black;
+  color: white;
+  
+  img{
+    width:100%
+  }
+  
+  h1 {
+    color: blueviolet;
+    font-family: "Raleway"
+  }
+}
+
+.jangeorg-blokk {
+  width: 300px;
+  display:inline-block;
+  background-color: pink;
+
+  h1{
+    color: magenta;
+    font-family: "BrushUp";
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.marie-blokk {
+  width: 300px;
+  
+  h1 {
+    color: orange;
+    font-family: "BrushUp";
+    font-size: 55px
+  }
+
+  img{
+    width: 100%;
+  }
+
+  h2 {
+    width: 50%;
+    color: white;
+    font-family: "TimesNewRoman"
+  }
+}
+    
+.Regine-blokk {
+  width: 300px;
+  background-color:beige;
+  
+  h1 {
+    color:crimson;
+    font-family: arial;
+    font-size: 30px;
+  }
+  
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  img {
+    width:100%;
+  }
+}
+
+.sigrid-blokk {
+  display: inline-block;
+  width: 300px;
+  color: white;
+  
+  img{
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+.sverre-blokk {
+  width: 300px;
+  display: inline-block;
+  background-color: #f44242;
+
+  h1{
+    color: green;
+    font-family: helvetica;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p{
+    font-family: helvetica;
+    font-size: 20px;
+    text-align: center;
+  }
+}
