@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import snow from '../assets/snow.webp';
+import snow from '../assets/snow.gif';
 
 import {
   AnneLise,
@@ -22,7 +22,6 @@ class FrontPage extends Component {
   render() {
     return (
       <div className="page-container front-page">
-        <div className="page-background" style={{ backgroundImage: `url(${snow})` }} />
         
         <AnneLise />
         <Birgitte />
@@ -38,6 +37,7 @@ class FrontPage extends Component {
         <Sigrid2 />
         <Sigrid3 />
         <Sverre />
+        <div className="page-background" style={{ backgroundImage: `url(${snow})` }} />
       </div>
     );
   }

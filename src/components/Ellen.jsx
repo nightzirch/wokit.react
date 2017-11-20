@@ -1,6 +1,6 @@
 import React from 'react';
 import bounty from '../assets/bounty-stenger.jpg';
-import snow from '../assets/snow2.gif';
+import snow from '../assets/snow2-optimized.gif';
 
 const Ellen = () => {
   return (
