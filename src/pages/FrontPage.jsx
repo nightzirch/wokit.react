@@ -26,10 +26,12 @@ let windowHeight = 0,
 
 class FrontPage extends Component {
   componentDidMount() {
-    $(document).ready(() => {
-      this.updateHeights();
-      this.scrollForever();
-    })
+    if (location.pathname.split("/").filter(a => a) == "tv") {
+      $(document).ready(() => {
+        this.updateHeights();
+        this.scrollForever();
+      })
+    }
   }
 
   updateHeights() {
