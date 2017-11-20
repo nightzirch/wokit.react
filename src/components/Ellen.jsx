@@ -12,6 +12,8 @@ const Ellen = () => {
         <img alt='' src={bounty} />
         <p>Oppskrift på superdiggge Bounty stenger finner du her!</p>
       </a>
+
+      <p className='made-by'>Laget av Ellen Steinsland</p>
     </div>
   );
 }

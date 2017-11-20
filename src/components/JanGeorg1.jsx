@@ -7,6 +7,8 @@ const JanGeorg1 = () => {
       <h1>NY teamleder i KXB</h1>
 
       <img alt='' src={bilde} />
+
+      <p className='made-by'>Laget av Jan Georg Lehmann-Røed</p>
     </div>
   );
 }

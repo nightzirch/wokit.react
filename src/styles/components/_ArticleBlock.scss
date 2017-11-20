@@ -1,10 +1,17 @@
 .article-block {
-  display: inline-block;
+  display: inline-flex !important;
+  flex-direction: column;
   width: 20%;
   margin: 10px;
   padding: 10px;
   flex-grow: 1;
   max-width: 400px;
+
+  .made-by {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+  }
 }
 
 .annelise-blokk {
@@ -57,7 +64,7 @@
   width: 300px;
   background-color: purple;
 
-  h1 {
+  h1, .made-by {
     color: pink;
     font-family: monospace;
     // shape-inside: circle();
@@ -94,6 +101,10 @@
 
   img {
     width: 100%
+  }
+
+  .made-by {
+    color: white;
   }
 }
 
@@ -141,10 +152,11 @@
     width: 100%;
   }
 
-  h2 {
+  h2, p {
     color: white;
     font-family: "TimesNewRoman"
   }
+  
 }
     
 .Regine-blokk {

@@ -12,6 +12,8 @@ const Sverre = () => {
         og det store samtaleemnet er om svoren blir like sprø i år
         som i fjor. Under finner du noen lure knep for å få den
         beste ribba.</p>
+
+      <p className='made-by'>Laget av Sverre Helland</p>
     </div>
   );
 }

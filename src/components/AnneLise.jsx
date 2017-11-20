@@ -8,9 +8,9 @@ const AnneLise = () => {
       <a href="https://matprat.no">
         <img alt='' src={julesushi} />
       </a>
-      <p>
-        Lær å lage de lekreste nissenigiri til familiens julebentobox!
-            </p>
+      <p>Lær å lage de lekreste nissenigiri til familiens julebentobox!</p>
+
+      <p className='made-by'>Laget av Anne Lise Bergem</p>
     </div>
   );
 }

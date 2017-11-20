@@ -11,6 +11,8 @@ const Fredrik = () => {
       </a>
         
       <p>Awsome Jul med Fredriks magiske Juletapaz! Trenger du ekstra julekos? Her får du juletipz, julatapaz, julegavetipz og mye mye mer #winning</p>
+
+      <p className='made-by'>Laget av Fredrik Ekerhovd</p>
     </div>
   );
 }

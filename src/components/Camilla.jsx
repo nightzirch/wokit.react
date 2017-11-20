@@ -6,9 +6,11 @@ const Camilla = () => {
     <div className="camilla-blokk article-block">
       <h1>God jul, her er en herlig julerett med fisk</h1>
       For oppskrift, klikk på bildet
-    <a href="https://matprat.no">
+      <a href="https://matprat.no">
         <img alt='' src={juletapas} />
       </a>
+
+      <p className='made-by'>Laget av Camilla Kjeseth</p>
     </div>
   );
 }

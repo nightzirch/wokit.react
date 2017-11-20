@@ -8,11 +8,11 @@ const Birgitte = () => {
       <a href="http://www.imdb.com/title/tt1758810/">
         <img alt='' src={risnisse} />
 
-        <p>
-          Sånn lager du denne søte snømannen som du kan spise
-    </p>
+        <p>Sånn lager du denne søte snømannen som du kan spise</p>
 
       </a>
+
+      <p className='made-by'>Laget av Birgitte Demir</p>
     </div>
   );
 }

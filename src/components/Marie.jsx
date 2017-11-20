@@ -7,6 +7,8 @@ const Marie = () => {
       <h1>Romjulstoddy smaker deilig!</h1>
       <h2>Romjulstoddy er alles favoritt. Vi hjelper deg å lage snadderdrikke til både svigermor og andre familiemedlemmer.</h2>
       <img alt='' src={arrested} />
+
+      <p className='made-by'>Laget av Marie Stoltz</p>
     </div>
   );
 }

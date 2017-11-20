@@ -11,6 +11,8 @@ const Regine = () => {
       <a href="https://www.matprat.no/julemat/julekaker/">
         <img alt='' src={julekaker} />
       </a>
+
+      <p className='made-by'>Laget av Regine Raknes</p>
     </div>
   );
 }

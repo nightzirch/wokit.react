@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
 import snow from '../assets/snow.gif';
 
 import {
@@ -19,6 +20,26 @@ import {
 } from '../components';
 
 class FrontPage extends Component {
+  componentDidMount() {
+    $(document).ready(() => {
+      this.scrollToBottom();
+    })
+  }
+
+  scrollToBottom() {
+    let windowHeight = window.innerHeight,
+        bodyHeight = document.querySelector('body').offsetHeight,
+        animationTime = 20000;
+
+    window.scrollTo(0, 0);
+
+    if(bodyHeight > windowHeight) {
+      $('html, body').animate({
+        scrollTop: bodyHeight - windowHeight
+      }, animationTime);
+    }
+  }
+
   render() {
     return (
       <div className="page-container front-page">

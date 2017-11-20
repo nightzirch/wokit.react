@@ -33,12 +33,17 @@ body {
           background-color: #0a1942; }
 
 .article-block {
-  display: inline-block;
+  display: inline-flex !important;
+  flex-direction: column;
   width: 20%;
   margin: 10px;
   padding: 10px;
   flex-grow: 1;
   max-width: 400px; }
+  .article-block .made-by {
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1; }
 
 .annelise-blokk {
   width: 300px;
@@ -74,7 +79,7 @@ body {
 .camilla-blokk {
   width: 300px;
   background-color: purple; }
-  .camilla-blokk h1 {
+  .camilla-blokk h1, .camilla-blokk .made-by {
     color: pink;
     font-family: monospace; }
   .camilla-blokk img {
@@ -99,6 +104,8 @@ body {
     text-align: center; }
   .ellen-blokk img {
     width: 100%; }
+  .ellen-blokk .made-by {
+    color: white; }
 
 .Fredrikblokk {
   width: 300px;
@@ -129,7 +136,7 @@ body {
     margin-top: 0; }
   .marie-blokk img {
     width: 100%; }
-  .marie-blokk h2 {
+  .marie-blokk h2, .marie-blokk p {
     color: white;
     font-family: "TimesNewRoman"; }
 

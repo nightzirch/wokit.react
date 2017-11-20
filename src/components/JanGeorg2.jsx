@@ -7,6 +7,8 @@ const JanGeorg2 = () => {
       <h1>Birgitte lager ny versjon av Nesbøs Snømannen</h1>
       
       <img alt='' src={somann} />
+
+      <p className='made-by'>Laget av JanGeorg Lehmann-Røed</p>
     </div>
   );
 }

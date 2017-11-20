@@ -7,6 +7,8 @@ const Sigrid2 = () => {
       <h1>Jan Georg leser egen poesi på neste Showit</h1>
       <p>Mine største forbilder er Knausgård og Jan Erik Vold, og viktige inspirasjonskilder for meg er havbruk, forteller Jan Georg.</p>
       <img alt='' src={JanGeorg} />
+
+      <p className='made-by'>Laget av Sigrid Stana Fasmer</p>
     </div>
   );
 }
