@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.6e7b9e6e.css",
-  "main.css.map": "static/css/main.6e7b9e6e.css.map",
-  "main.js": "static/js/main.794abac9.js",
-  "main.js.map": "static/js/main.794abac9.js.map",
+  "main.css": "static/css/main.6412156c.css",
+  "main.css.map": "static/css/main.6412156c.css.map",
+  "main.js": "static/js/main.d2bdd502.js",
+  "main.js.map": "static/js/main.d2bdd502.js.map",
   "static/media/Christian.jpg": "static/media/Christian.2a8a2033.jpg",
   "static/media/Fredrik.jpg": "static/media/Fredrik.739b1f65.jpg",
   "static/media/JanGeorg.jpg": "static/media/JanGeorg.96217e1b.jpg",
@@ -12,12 +12,11 @@
   "static/media/bobler.jpg": "static/media/bobler.fea4197f.jpg",
   "static/media/bounty-stenger.jpg": "static/media/bounty-stenger.743adfbb.jpg",
   "static/media/fredrik_giphy.gif": "static/media/fredrik_giphy.baa1b555.gif",
-  "static/media/frying-pan.svg": "static/media/frying-pan.6989b89b.svg",
   "static/media/julekaker.jpg": "static/media/julekaker.de0a227c.jpg",
   "static/media/julesushi.jpeg": "static/media/julesushi.51f6a7b8.jpeg",
   "static/media/mage.gif": "static/media/mage.c8063c2c.gif",
   "static/media/risnisse.jpg": "static/media/risnisse.436fcd29.jpg",
-  "static/media/snow.webp": "static/media/snow.21ccce67.webp",
-  "static/media/snow2.gif": "static/media/snow2.39d62b81.gif",
+  "static/media/snow.gif": "static/media/snow.93795e23.gif",
+  "static/media/snow2-optimized.gif": "static/media/snow2-optimized.3bcde775.gif",
   "static/media/somann.png": "static/media/somann.0478b0ca.png"
 }
