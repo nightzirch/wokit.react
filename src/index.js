@@ -13,7 +13,6 @@ ReactDOM.render(
   <BrowserRouter>
     <App>
       <Route exact path="/" component={FrontPage} />
-      <Route path="/tv" component={FrontPage} />
     </App>
   </BrowserRouter>,
   document.getElementById('root')

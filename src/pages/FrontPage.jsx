@@ -26,7 +26,7 @@ let windowHeight = 0,
 
 class FrontPage extends Component {
   componentDidMount() {
-    if (location.pathname.split("/").filter(a => a) == "tv") {
+    if (window.location.hash.split("#").filter(a => a) == "tv") {
       $(document).ready(() => {
         this.updateHeights();
         this.scrollForever();
