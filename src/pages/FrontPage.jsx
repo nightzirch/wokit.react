@@ -19,23 +19,55 @@ import {
   Sverre
 } from '../components';
 
+
+const animationTime = 20000;
+let windowHeight = 0,
+    bodyHeight = 0;
+
 class FrontPage extends Component {
   componentDidMount() {
     $(document).ready(() => {
-      this.scrollToBottom();
+      this.updateHeights();
+      this.scrollForever();
     })
   }
 
-  scrollToBottom() {
-    let windowHeight = window.innerHeight,
-        bodyHeight = document.querySelector('body').offsetHeight,
-        animationTime = 20000;
+  updateHeights() {
+    windowHeight = window.innerHeight;
+    bodyHeight = document.querySelector('body').offsetHeight;
+  }
 
+  scrollForever() {
+    let scrollLoop = () => {
+      this.scrollToBottom();
+
+      setTimeout(() => {
+        this.scrollToTop();
+      }, animationTime);
+    }
+
+    scrollLoop();
+    setInterval(scrollLoop, animationTime * 2)
+  }
+
+  scrollToBottom() {
     window.scrollTo(0, 0);
+    this.updateHeights();
 
     if(bodyHeight > windowHeight) {
       $('html, body').animate({
         scrollTop: bodyHeight - windowHeight
+      }, animationTime);
+    }
+  }
+
+  scrollToTop() {
+    window.scrollTo(0, bodyHeight - windowHeight);
+    this.updateHeights();
+
+    if (bodyHeight > windowHeight) {
+      $('html, body').animate({
+        scrollTop: 0
       }, animationTime);
     }
   }
