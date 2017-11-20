@@ -6,7 +6,7 @@ const AnneLise = () => {
     <div className="annelise-blokk article-block">
       <h1>Anne Lise sin digge julesushi!</h1>
       <a href="https://matprat.no">
-        <img src={julesushi} />
+        <img alt='' src={julesushi} />
       </a>
       <p>
         Lær å lage de lekreste nissenigiri til familiens julebentobox!

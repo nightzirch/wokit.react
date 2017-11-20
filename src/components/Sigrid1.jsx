@@ -6,7 +6,7 @@ const Sigrid1 = () => {
     <div className="sigrid-blokk article-block">
       <h1>Christian springer fort i Stoltzen</h1>
       <p>Knowits raskeste mann knuste til med ny pers i årets løp</p>
-      <img src={christian} />
+      <img alt='' src={christian} />
     </div>
   );
 }

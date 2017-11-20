@@ -7,7 +7,7 @@ const Camilla = () => {
       <h1>God jul, her er en herlig julerett med fisk</h1>
       For oppskrift, klikk på bildet
     <a href="https://matprat.no">
-        <img src={juletapas} />
+        <img alt='' src={juletapas} />
       </a>
     </div>
   );

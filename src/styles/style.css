@@ -167,20 +167,3 @@ body {
     font-family: helvetica;
     font-size: 20px;
     text-align: center; }
-
-.container {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto; }
-  @media (min-width: 544px) {
-    .container {
-      max-width: 544px; } }
-  @media (min-width: 768px) {
-    .container {
-      max-width: 768px; } }
-  @media (min-width: 992px) {
-    .container {
-      max-width: 992px; } }
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1200px; } }

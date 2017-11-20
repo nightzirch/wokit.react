@@ -6,7 +6,7 @@ const JanGeorg2 = () => {
     <div className="jangeorg-blokk article-block">
       <h1>Birgitte lager ny versjon av Nesbøs Snømannen</h1>
       
-      <img src={somann} />
+      <img alt='' src={somann} />
     </div>
   );
 }

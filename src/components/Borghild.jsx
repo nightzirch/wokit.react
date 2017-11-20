@@ -6,7 +6,7 @@ const Borghild = () => {
     <div className="borghild-blokk article-block">
       <h1>Borghilds Juletips!</h1>
       <a href="https://matprat.no">
-        <img src={bobler} />
+        <img alt='' src={bobler} />
       </a>
       <p>
         <b>

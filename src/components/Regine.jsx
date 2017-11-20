@@ -9,7 +9,7 @@ const Regine = () => {
       <p> Nå er det tid for årets julebakst!</p>
 
       <a href="https://www.matprat.no/julemat/julekaker/">
-        <img src={julekaker} />
+        <img alt='' src={julekaker} />
       </a>
     </div>
   );

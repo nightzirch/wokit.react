@@ -6,19 +6,13 @@ import './styles/style.css';
 
 import {
   App,
-  BlogPage,
-  CategoryPage,
-  FrontPage,
-  RecipePage
+  FrontPage
 } from './pages';
 
 ReactDOM.render(
   <BrowserRouter>
     <App>
       <Route exact path="/" component={FrontPage} />
-      <Route path="/blog" component={BlogPage} />
-      <Route path="/category" component={CategoryPage} />
-      <Route path="/recipe" component={RecipePage} />
     </App>
   </BrowserRouter>,
   document.getElementById('root')

@@ -7,7 +7,7 @@ const Fredrik = () => {
       <h1>Fredrik er awsome</h1>
       
       <a href="https://matprat.no">
-        <img src={fredrikGiphy} />
+        <img alt='' src={fredrikGiphy} />
       </a>
         
       <p>Awsome Jul med Fredriks magiske Juletapaz! Trenger du ekstra julekos? Her får du juletipz, julatapaz, julegavetipz og mye mye mer #winning</p>

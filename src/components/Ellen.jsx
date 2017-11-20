@@ -9,7 +9,7 @@ const Ellen = () => {
       <h2>Hjemmelaget Bounty stenger</h2>
 
       <a href="http://www.passionforbaking.com/no/blog/2016/12/01/hjemmelaget-bounty-stenger/">
-        <img src={bounty} />
+        <img alt='' src={bounty} />
         <p>Oppskrift på superdiggge Bounty stenger finner du her!</p>
       </a>
     </div>

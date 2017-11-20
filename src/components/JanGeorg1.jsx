@@ -6,7 +6,7 @@ const JanGeorg1 = () => {
     <div className="jangeorg-blokk article-block">
       <h1>NY teamleder i KXB</h1>
 
-      <img src={bilde} />
+      <img alt='' src={bilde} />
     </div>
   );
 }
