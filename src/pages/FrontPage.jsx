@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import snow from '../assets/snow.gif';
 
 import {
   AnneLise,
@@ -21,7 +20,8 @@ import {
 
 
 const animationTime = 20000;
-let windowHeight = 0,
+let scrollElement = null,
+    windowHeight = 0,
     bodyHeight = 0;
 
 class FrontPage extends Component {
@@ -35,8 +35,9 @@ class FrontPage extends Component {
   }
 
   updateHeights() {
-    windowHeight = window.innerHeight;
-    bodyHeight = document.querySelector('body').offsetHeight;
+    scrollElement = document.querySelector('.page-container');
+    windowHeight = scrollElement.clientHeight;
+    bodyHeight = scrollElement.scrollHeight;
   }
 
   scrollForever() {
@@ -57,7 +58,7 @@ class FrontPage extends Component {
     this.updateHeights();
 
     if(bodyHeight > windowHeight) {
-      $('html, body').animate({
+      $(scrollElement).animate({
         scrollTop: bodyHeight - windowHeight
       }, animationTime);
     }
@@ -68,7 +69,7 @@ class FrontPage extends Component {
     this.updateHeights();
 
     if (bodyHeight > windowHeight) {
-      $('html, body').animate({
+      $(scrollElement).animate({
         scrollTop: 0
       }, animationTime);
     }
@@ -92,7 +93,6 @@ class FrontPage extends Component {
         <Sigrid2 />
         <Sigrid3 />
         <Sverre />
-        <div className="page-background" style={{ backgroundImage: `url(${snow})` }} />
       </div>
     );
   }
